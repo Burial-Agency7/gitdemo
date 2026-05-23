@@ -1,0 +1,29 @@
+# MATLAB autosave and backup
+*.asv
+*.m~
+
+# Simulink / code generation
+slprj/
+*.slxc
+*.autosave
+
+# Compiled MEX / binaries
+*.mexw64
+*.mexw32
+*.mexa64
+*.mexmaci64
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.vscode/
+*.code-workspace
+
+# Local run outputs (figures, data exports)
+*.fig
+*.mat
+results/
+output/
