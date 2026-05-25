@@ -30,7 +30,7 @@ function [path, fitnessHistory] = GAPath(source, goal, circleCenter, r, options,
     verbose = getOption(options, 'verbose', true);
     pruneEnabled = getOption(options, 'prunePath', true);  % 是否启用路径简化
     
-    %% 初始化
+    %% 初始化机器人模型
     % 计算搜索空间边界
     bboxMin = min(source, goal) - 150;
     bboxMax = max(source, goal) + 150;
